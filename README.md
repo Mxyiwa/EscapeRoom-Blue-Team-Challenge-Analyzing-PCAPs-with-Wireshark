@@ -91,11 +91,8 @@
 
 <h2>Reverse Engineering Malware with Ghidra</h2>
 
-<p align="center">
-<img src="https://imgpile.com/images/hoXc8X.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
-</p>
-
-
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/cHYrb9pK/Screenshot-2023-09-05-at-17-54-28.png](https://i.postimg.cc/qqVBcVjN/1-s-JDq-Z7l-A-q0a-XUj-YJJMq1g.webp' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
+<br />
 
 <!--
  ```diff
