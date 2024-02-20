@@ -91,7 +91,7 @@
 
 <h2>Reverse Engineering Malware with Ghidra</h2>
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/cHYrb9pK/Screenshot-2023-09-05-at-17-54-28.png](https://i.postimg.cc/qqVBcVjN/1-s-JDq-Z7l-A-q0a-XUj-YJJMq1g.webp' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qqVBcVjN/1-s-JDq-Z7l-A-q0a-XUj-YJJMq1g.webp' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
 <br />
 
 <!--
