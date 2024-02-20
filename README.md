@@ -62,6 +62,20 @@
 - <b>17. What are the commands that the malware was receiving from attacker servers? Format: comma-separated in alphabetical order</b>
 <b>ANS: NOP, RUN</b>
 
+## Issues Encountered
+
+<b>I ran into an issue in Question №5. The problem was simply a permission error encountered when trying to unzip the “rockyou.tx.gz” password list file. So, I took the steps highlighted.</b>
+
+- <b>First, I typed cdto navigate to the root folder on the command terminal.</b>
+- <b>Next, I typed cd /usr/share/wordlists/ to navigate to the wordlists folder.</b>
+- <b>Typed ls to enumerate the content of the folder and then ls -l rockyou.txt.gz to identify the permission on the zipped “rockyou.txt” file.</b>
+- <b>Then I typed gzip -d rockyou.txt to try to unzip the file but I ran into a permission error. I remediated this by adding the sudo command to the previous command, sudo gzip -d rockyou.txt.</b>
+- <b>After, extracting the files from the zip folder, I used cat rockyou.txt to display the contents of the unzipped file.</b>
+<br>
+</br>
+
+## Conclusion
+<b>This CTF was most definitely challenging and brain-tasking, but I enjoyed it and I was able to learn a lot. It exposed me to a wide range of tools such as Ghidra, which taught me house to reverse engineer malware, Wireshark for analysing captured traffic and ZUI. I hope this write-up can be useful to anyone who wants to attempt this challenge. Thanks for reading!</b>
 
 
 
@@ -75,17 +89,12 @@
 
 
 
-<h2>Attacks from Luxembourg, Germany and, Belgium coming in; Custom logs being output with geodata</h2>
+<h2>Reverse Engineering Malware with Ghidra</h2>
 
 <p align="center">
 <img src="https://imgpile.com/images/hoXc8X.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
-<h2>World map of incoming attacks after 5 hours (built custom logs including geodata)</h2>
-
-<p align="center">
-<img src="https://imgpile.com/images/hoXba3.png" height="100%" width="100%" alt="Image Analysis Dataflow"/>
-</p>
 
 
 <!--
