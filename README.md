@@ -1,5 +1,8 @@
 <h1>EscapeRoom Blue Team Challenge — Analyzing PCAPs with Wireshark</h1>
 
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sxrGJ0cg/michael-geiger-JJPqav-JBy-k-unsplash.jpg' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
+<br />
+
 <h2>Description</h2>
 <b>
  This lab is the walkthrough of my approach to solving the “EscapeRoom” CTF by The Honeynet Project on the Cyberdefenders website. The goal is to perform a series of analyses of the PCAP files provided by the Cyberdefenders platform and answer a series of questions about my analysis.
@@ -71,23 +74,10 @@
 - <b>Typed ls to enumerate the content of the folder and then ls -l rockyou.txt.gz to identify the permission on the zipped “rockyou.txt” file.</b>
 - <b>Then I typed gzip -d rockyou.txt to try to unzip the file but I ran into a permission error. I remediated this by adding the sudo command to the previous command, sudo gzip -d rockyou.txt.</b>
 - <b>After, extracting the files from the zip folder, I used cat rockyou.txt to display the contents of the unzipped file.</b>
-<br>
 </br>
 
 ## Conclusion
 <b>This CTF was most definitely challenging and brain-tasking, but I enjoyed it and I was able to learn a lot. It exposed me to a wide range of tools such as Ghidra, which taught me house to reverse engineer malware, Wireshark for analysing captured traffic and ZUI. I hope this write-up can be useful to anyone who wants to attempt this challenge. Thanks for reading!</b>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <h2>Reverse Engineering Malware with Ghidra</h2>
 
